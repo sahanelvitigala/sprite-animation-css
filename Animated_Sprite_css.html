@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<style>
+.sprite {
+    width: 82px;
+    height: 352px;
+    background-image: url("sprite.png");
+    
+    -webkit-animation: play 1s steps(24) infinite;
+       -moz-animation: play 1s steps(24) infinite;
+        -ms-animation: play 1s steps(24) infinite;
+         -o-animation: play 1s steps(24) infinite;
+            animation: play 1s steps(24) infinite;
+}
+
+@-webkit-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1968px; }
+}
+
+@-moz-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1968px; }
+}
+
+@-ms-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1968px; }
+}
+
+@-o-keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1968px; }
+}
+
+@keyframes play {
+   from { background-position:    0px; }
+     to { background-position: -1968px; }
+}
+
+</style>
+</head>
+
+<body>
+
+<img src="sprite.png" />
+<div class="sprite"></div>
+</body>
+</html>
